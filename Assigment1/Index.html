@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+       label {
+    width:180px;
+    clear:left;
+    text-align:right;
+    padding-right:10px;
+    padding-left:10px;
+
+}
+
+
+        </style>
+    </head>
+    <body bgcolor-color="Green">
+        <celenter>
+        <header style="text-align: center;font-size: 25pt;">Product Details</header>
+        <form  action="process.php" method="POST"> 
+            <br>
+            <br>
+            <div>
+                <label style="margin-right: 40px;">Product Name</label>
+                <input type="text" name="productname" required minlength="4" maxlength="100" size="150">
+            </div>
+            <br> 
+            <div>
+                <label style="margin-right: 3px;">Product Description</label>
+                <input style="height:200px;"type="text" name="productdescription" required size="150">             
+            </div>
+            <br> 
+            <div>
+                <label style="margin-right: 40px;">Support Email</label>
+                <input type="text" name="email" required size="150">
+            </div>
+            <br> 
+            <div>
+                <label style="margin-right: 40px;"> Seller Contact</label>
+                <input type="text" name="contact" value="1234567890" readonly size="150">
+            </div>
+            <br> 
+            <div>
+                <label style="margin-right: 50px;">Launch Date</label>
+                <input type="Date" name="date" required>
+            </div>
+            <br> 
+            <div>
+                <label style="margin-right: 25px;">Product Colours</label>
+                <input type="checkbox" name="product1" >Red
+                <input type="checkbox" name="product2" >Green
+                <input type="checkbox" name="product3" >Yellow
+            </div>
+            <br> 
+            <div>
+                <label style="margin-right: 50px;">Product Size</label>
+                <select name="size" required>
+                    <option value="default">select</option>
+                    <option value="SM">SM</option>
+                    <option value="MD">MD</option>
+                    <option value="LG">LG</option>
+                    <option value="XL">XL</option>
+                </select>
+            </div>
+            <br> 
+            <div>
+                <label style="margin-right: 70px;">In Stock</label>
+                <input type="radio" name="stock" >yes
+                <input type="radio" name="stock">no
+            </div>
+            <br> 
+            <div>
+                <label>Choose Image
+                    <input id="files-upload" type="file" multiple style="margin-left: 50px;">
+                  </p></label>
+                
+                        <input type="file" id="file1" name="image" accept="image/*" capture style="display:none"/>
+                </p>
+                        </div>
+            <div style="margin-left: 10px;text-align: center;font-size: 20px;height: 30px;">
+                <input style="margin-right: 10px;text-align: center;font-size: 20px;height: 30px;" type="submit">
+                <input style="text-align: center;font-size: 20px;height: 30px;" type="reset">
+            </div>
+            <br> 
+        </form>
+        <script src="https://code.jquery.com/jquery-1.8.3.min.js"></script>
+
+       
+         
+        
+    </body>
+</html>
