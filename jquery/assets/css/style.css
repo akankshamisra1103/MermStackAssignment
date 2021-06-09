@@ -1,0 +1,38 @@
+
+  
+  
+  label, input {
+    border: 0;
+    margin-bottom: 3px;
+    margin-right: 25%;
+    display: block;
+    font-size: 20px;
+    width: 100%;
+   text-align: start;
+    
+  }
+ .box {
+    padding: 20px;
+    border: 1px solid #032c05;
+    border-color: #2832ba;
+    border-radius: 15px;
+    margin-top: 10px;
+    background: #5a89f0;
+    text-align: center;
+}
+label {
+  text-align: start;
+}
+button {
+  border: 0;
+  font-size: 18px;
+  padding: 7px;
+  margin-bottom: 3px;
+  margin-right: 25%;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+input {
+    padding: 3px;
+}
